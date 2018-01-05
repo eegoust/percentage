@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href=style.css>
+    </head>
+    <body>
+        <h1>Percentage Calucators!</h1>
+        <select id="selectedOption" onchange="changeFieldNames()">
+            <option value="0">--Select--</option>           
+            <option value="1">X is what % of Y?</option>
+            <option value="2">What is Y% of X?</option>
+        </select>
+        <br><br>
+        <form class="formstyle" id="forminputs">
+            <label id="nameField1"></label>
+            <input type="text" id="numField1">
+            <label id="nameField2"></label>
+            <input type="text" id="numField2">
+            <label id="nameField3"></label>
+            <br><br>
+            <input type="submit" value="calculate">
+        </form>
+        <h3 id="resultField"></h3>
+        <script type="text/javascript" src="calc.js"></script>
+    </body>
+</html>

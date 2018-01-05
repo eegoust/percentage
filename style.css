@@ -1,0 +1,7 @@
+form.formstyle {
+    display: none;
+}
+
+form.formstyle.show {
+    display: block;
+}
